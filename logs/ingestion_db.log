@@ -1,0 +1,265 @@
+2026-03-01 18:10:58,938-INFO-Ingesting begin_inventory.csv in db
+2026-03-01 18:11:02,789-INFO-Ingesting end_inventory.csv in db
+2026-03-01 18:11:12,775-INFO-Ingesting purchases.csv in db
+2026-03-01 18:12:10,945-INFO-Ingesting purchase_prices.csv in db
+2026-03-01 18:12:33,117-INFO-Ingesting sales.csv in db
+2026-03-02 07:53:23,875-INFO-Creating Vendor Summary Table...
+2026-03-02 07:53:36,784-INFO-   VendorNumber                               VendorName  Brand  \
+0             2  IRA GOLDMAN AND WILLIAMS, LLP            90085   
+1             2  IRA GOLDMAN AND WILLIAMS, LLP            90609   
+2            54              AAPER ALCOHOL & CHEMICAL CO    990   
+3            60              ADAMBA IMPORTS INTL INC        771   
+4            60              ADAMBA IMPORTS INTL INC       3401   
+
+                    Description  PurchasePrice  ActualPrice Volume  \
+0  Ch Lilian 09 Ladouys St Este          23.86        36.99    750   
+1  Flavor Essence Variety 5 Pak          17.00        24.99  162.5   
+2       Ethyl Alcohol 200 Proof         105.07       134.49   3750   
+3   Bak's Krupnik Honey Liqueur          11.44        14.99    750   
+4                  Vesica Vodka          11.10        14.99   1750   
+
+   TotalPurchaseQuantity  TotalPurchaseDollars TotalSalesQuantity  \
+0                      8                190.88               None   
+1                    320               5440.00               None   
+2                      1                105.07               None   
+3                     39                446.16               None   
+4                      6                 66.60               None   
+
+  TotalSalesDollars TotalSalesPrice TotalExciseTax  FreightCost  
+0              None            None           None        27.08  
+1              None            None           None        27.08  
+2              None            None           None         0.48  
+3              None            None           None       367.52  
+4              None            None           None       367.52  
+2026-03-02 07:53:36,797-INFO-Cleaning Data...
+2026-03-02 07:53:36,834-INFO-   VendorNumber                     VendorName  Brand  \
+0             2  IRA GOLDMAN AND WILLIAMS, LLP  90085   
+1             2  IRA GOLDMAN AND WILLIAMS, LLP  90609   
+2            54    AAPER ALCOHOL & CHEMICAL CO    990   
+3            60        ADAMBA IMPORTS INTL INC    771   
+4            60        ADAMBA IMPORTS INTL INC   3401   
+
+                    Description  PurchasePrice  ActualPrice  Volume  \
+0  Ch Lilian 09 Ladouys St Este          23.86        36.99   750.0   
+1  Flavor Essence Variety 5 Pak          17.00        24.99   162.5   
+2       Ethyl Alcohol 200 Proof         105.07       134.49  3750.0   
+3   Bak's Krupnik Honey Liqueur          11.44        14.99   750.0   
+4                  Vesica Vodka          11.10        14.99  1750.0   
+
+   TotalPurchaseQuantity  TotalPurchaseDollars  TotalSalesQuantity  \
+0                      8                190.88                   0   
+1                    320               5440.00                   0   
+2                      1                105.07                   0   
+3                     39                446.16                   0   
+4                      6                 66.60                   0   
+
+   TotalSalesDollars  TotalSalesPrice  TotalExciseTax  FreightCost  \
+0                  0                0               0        27.08   
+1                  0                0               0        27.08   
+2                  0                0               0         0.48   
+3                  0                0               0       367.52   
+4                  0                0               0       367.52   
+
+   GrossProfit  ProfitMargin  StockTurnover  SalesToPurchaseRatio  
+0      -190.88           0.0            0.0                   0.0  
+1     -5440.00           0.0            0.0                   0.0  
+2      -105.07           0.0            0.0                   0.0  
+3      -446.16           0.0            0.0                   0.0  
+4       -66.60           0.0            0.0                   0.0  
+2026-03-02 07:53:36,839-INFO-Ingesting data...
+2026-03-02 07:53:36,949-INFO-Completed
+2026-03-02 10:03:56,348-INFO-Creating Vendor Summary Table...
+2026-03-02 10:04:07,825-INFO-   VendorNumber                               VendorName  Brand  \
+0             2  IRA GOLDMAN AND WILLIAMS, LLP            90085   
+1             2  IRA GOLDMAN AND WILLIAMS, LLP            90609   
+2            54              AAPER ALCOHOL & CHEMICAL CO    990   
+3            60              ADAMBA IMPORTS INTL INC        771   
+4            60              ADAMBA IMPORTS INTL INC       3401   
+
+                    Description  PurchasePrice  ActualPrice Volume  \
+0  Ch Lilian 09 Ladouys St Este          23.86        36.99    750   
+1  Flavor Essence Variety 5 Pak          17.00        24.99  162.5   
+2       Ethyl Alcohol 200 Proof         105.07       134.49   3750   
+3   Bak's Krupnik Honey Liqueur          11.44        14.99    750   
+4                  Vesica Vodka          11.10        14.99   1750   
+
+   TotalPurchaseQuantity  TotalPurchaseDollars TotalSalesQuantity  \
+0                      8                190.88               None   
+1                    320               5440.00               None   
+2                      1                105.07               None   
+3                     39                446.16               None   
+4                      6                 66.60               None   
+
+  TotalSalesDollars TotalSalesPrice TotalExciseTax  FreightCost  
+0              None            None           None        27.08  
+1              None            None           None        27.08  
+2              None            None           None         0.48  
+3              None            None           None       367.52  
+4              None            None           None       367.52  
+2026-03-02 10:04:07,843-INFO-Cleaning Data...
+2026-03-02 10:04:07,877-INFO-   VendorNumber                     VendorName  Brand  \
+0             2  IRA GOLDMAN AND WILLIAMS, LLP  90085   
+1             2  IRA GOLDMAN AND WILLIAMS, LLP  90609   
+2            54    AAPER ALCOHOL & CHEMICAL CO    990   
+3            60        ADAMBA IMPORTS INTL INC    771   
+4            60        ADAMBA IMPORTS INTL INC   3401   
+
+                    Description  PurchasePrice  ActualPrice  Volume  \
+0  Ch Lilian 09 Ladouys St Este          23.86        36.99   750.0   
+1  Flavor Essence Variety 5 Pak          17.00        24.99   162.5   
+2       Ethyl Alcohol 200 Proof         105.07       134.49  3750.0   
+3   Bak's Krupnik Honey Liqueur          11.44        14.99   750.0   
+4                  Vesica Vodka          11.10        14.99  1750.0   
+
+   TotalPurchaseQuantity  TotalPurchaseDollars  TotalSalesQuantity  \
+0                      8                190.88                   0   
+1                    320               5440.00                   0   
+2                      1                105.07                   0   
+3                     39                446.16                   0   
+4                      6                 66.60                   0   
+
+   TotalSalesDollars  TotalSalesPrice  TotalExciseTax  FreightCost  \
+0                  0                0               0        27.08   
+1                  0                0               0        27.08   
+2                  0                0               0         0.48   
+3                  0                0               0       367.52   
+4                  0                0               0       367.52   
+
+   GrossProfit  ProfitMargin  StockTurnover  SalesToPurchaseRatio  
+0      -190.88           0.0            0.0                   0.0  
+1     -5440.00           0.0            0.0                   0.0  
+2      -105.07           0.0            0.0                   0.0  
+3      -446.16           0.0            0.0                   0.0  
+4       -66.60           0.0            0.0                   0.0  
+2026-03-02 10:04:07,883-INFO-Ingesting data...
+2026-03-02 10:04:07,951-INFO-Completed
+2026-03-02 10:04:07,972-INFO-Creating Vendor Summary Table...
+2026-03-02 10:04:20,850-INFO-   VendorNumber                               VendorName  Brand  \
+0             2  IRA GOLDMAN AND WILLIAMS, LLP            90085   
+1             2  IRA GOLDMAN AND WILLIAMS, LLP            90609   
+2            54              AAPER ALCOHOL & CHEMICAL CO    990   
+3            60              ADAMBA IMPORTS INTL INC        771   
+4            60              ADAMBA IMPORTS INTL INC       3401   
+
+                    Description  PurchasePrice  ActualPrice Volume  \
+0  Ch Lilian 09 Ladouys St Este          23.86        36.99    750   
+1  Flavor Essence Variety 5 Pak          17.00        24.99  162.5   
+2       Ethyl Alcohol 200 Proof         105.07       134.49   3750   
+3   Bak's Krupnik Honey Liqueur          11.44        14.99    750   
+4                  Vesica Vodka          11.10        14.99   1750   
+
+   TotalPurchaseQuantity  TotalPurchaseDollars TotalSalesQuantity  \
+0                      8                190.88               None   
+1                    320               5440.00               None   
+2                      1                105.07               None   
+3                     39                446.16               None   
+4                      6                 66.60               None   
+
+  TotalSalesDollars TotalSalesPrice TotalExciseTax  FreightCost  
+0              None            None           None        27.08  
+1              None            None           None        27.08  
+2              None            None           None         0.48  
+3              None            None           None       367.52  
+4              None            None           None       367.52  
+2026-03-02 10:04:20,855-INFO-Cleaning Data...
+2026-03-02 10:04:20,878-INFO-   VendorNumber                     VendorName  Brand  \
+0             2  IRA GOLDMAN AND WILLIAMS, LLP  90085   
+1             2  IRA GOLDMAN AND WILLIAMS, LLP  90609   
+2            54    AAPER ALCOHOL & CHEMICAL CO    990   
+3            60        ADAMBA IMPORTS INTL INC    771   
+4            60        ADAMBA IMPORTS INTL INC   3401   
+
+                    Description  PurchasePrice  ActualPrice  Volume  \
+0  Ch Lilian 09 Ladouys St Este          23.86        36.99   750.0   
+1  Flavor Essence Variety 5 Pak          17.00        24.99   162.5   
+2       Ethyl Alcohol 200 Proof         105.07       134.49  3750.0   
+3   Bak's Krupnik Honey Liqueur          11.44        14.99   750.0   
+4                  Vesica Vodka          11.10        14.99  1750.0   
+
+   TotalPurchaseQuantity  TotalPurchaseDollars  TotalSalesQuantity  \
+0                      8                190.88                   0   
+1                    320               5440.00                   0   
+2                      1                105.07                   0   
+3                     39                446.16                   0   
+4                      6                 66.60                   0   
+
+   TotalSalesDollars  TotalSalesPrice  TotalExciseTax  FreightCost  \
+0                  0                0               0        27.08   
+1                  0                0               0        27.08   
+2                  0                0               0         0.48   
+3                  0                0               0       367.52   
+4                  0                0               0       367.52   
+
+   GrossProfit  ProfitMargin  StockTurnover  SalesToPurchaseRatio  
+0      -190.88           0.0            0.0                   0.0  
+1     -5440.00           0.0            0.0                   0.0  
+2      -105.07           0.0            0.0                   0.0  
+3      -446.16           0.0            0.0                   0.0  
+4       -66.60           0.0            0.0                   0.0  
+2026-03-02 10:04:20,883-INFO-Ingesting data...
+2026-03-02 10:04:21,343-INFO-Completed
+2026-03-02 10:10:02,915-INFO-Creating Vendor Summary Table...
+2026-03-02 10:12:25,171-INFO-   VendorNumber                               VendorName  Brand  \
+0             2  IRA GOLDMAN AND WILLIAMS, LLP            90085   
+1             2  IRA GOLDMAN AND WILLIAMS, LLP            90609   
+2            54              AAPER ALCOHOL & CHEMICAL CO    990   
+3            60              ADAMBA IMPORTS INTL INC        771   
+4            60              ADAMBA IMPORTS INTL INC       3401   
+
+                    Description  PurchasePrice  ActualPrice Volume  \
+0  Ch Lilian 09 Ladouys St Este          23.86        36.99    750   
+1  Flavor Essence Variety 5 Pak          17.00        24.99  162.5   
+2       Ethyl Alcohol 200 Proof         105.07       134.49   3750   
+3   Bak's Krupnik Honey Liqueur          11.44        14.99    750   
+4                  Vesica Vodka          11.10        14.99   1750   
+
+   TotalPurchaseQuantity  TotalPurchaseDollars  TotalSalesQuantity  \
+0                      8                190.88                18.0   
+1                    320               5440.00                24.0   
+2                      1                105.07                 NaN   
+3                     39                446.16                47.0   
+4                      6                 66.60                 NaN   
+
+   TotalSalesDollars  TotalSalesPrice  TotalExciseTax  FreightCost  
+0             665.82           295.92            2.00        27.08  
+1             599.76           449.82            0.52        27.08  
+2                NaN              NaN             NaN         0.48  
+3             704.53           494.67           37.01       367.52  
+4                NaN              NaN             NaN       367.52  
+2026-03-02 10:12:25,236-INFO-Cleaning Data...
+2026-03-02 10:12:25,320-INFO-   VendorNumber                     VendorName  Brand  \
+0             2  IRA GOLDMAN AND WILLIAMS, LLP  90085   
+1             2  IRA GOLDMAN AND WILLIAMS, LLP  90609   
+2            54    AAPER ALCOHOL & CHEMICAL CO    990   
+3            60        ADAMBA IMPORTS INTL INC    771   
+4            60        ADAMBA IMPORTS INTL INC   3401   
+
+                    Description  PurchasePrice  ActualPrice  Volume  \
+0  Ch Lilian 09 Ladouys St Este          23.86        36.99   750.0   
+1  Flavor Essence Variety 5 Pak          17.00        24.99   162.5   
+2       Ethyl Alcohol 200 Proof         105.07       134.49  3750.0   
+3   Bak's Krupnik Honey Liqueur          11.44        14.99   750.0   
+4                  Vesica Vodka          11.10        14.99  1750.0   
+
+   TotalPurchaseQuantity  TotalPurchaseDollars  TotalSalesQuantity  \
+0                      8                190.88                18.0   
+1                    320               5440.00                24.0   
+2                      1                105.07                 0.0   
+3                     39                446.16                47.0   
+4                      6                 66.60                 0.0   
+
+   TotalSalesDollars  TotalSalesPrice  TotalExciseTax  FreightCost  \
+0             665.82           295.92            2.00        27.08   
+1             599.76           449.82            0.52        27.08   
+2               0.00             0.00            0.00         0.48   
+3             704.53           494.67           37.01       367.52   
+4               0.00             0.00            0.00       367.52   
+
+   GrossProfit  ProfitMargin  StockTurnover  SalesToPurchaseRatio  
+0       474.94     71.331591       2.250000              3.488160  
+1     -4840.24   -807.029478       0.075000              0.110250  
+2      -105.07      0.000000       0.000000              0.000000  
+3       258.37     36.672675       1.205128              1.579097  
+4       -66.60      0.000000       0.000000              0.000000  
+2026-03-02 10:12:25,329-INFO-Ingesting data...
+2026-03-02 10:12:25,489-INFO-Completed
